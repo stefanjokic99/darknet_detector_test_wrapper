@@ -30,13 +30,13 @@ To utilize this Darknet Detector Test Wrapper, follow the steps below:
    ```
 4. **Release Instance**
   Once detection is complete, release the instance to make it available for subsequent requests:
-  ```python
-  DarknetManager.release_instance(darknet_process)
-  ``` 
+   ```python
+   DarknetManager.release_instance(darknet_process)
+   ``` 
 4. **Data Parsing**
   Data obtained from the detection can be parsed using the following method provided in the wrapper:
-  ```python
-  def parse_data(detections):
+   ```python
+   def parse_data(detections):
     matrix = []
     for detection in detections:
         percentage = float(detection[1])
@@ -44,6 +44,7 @@ To utilize this Darknet Detector Test Wrapper, follow the steps below:
         top_y = int(detection[2][1])
         width = int(detection[2][2])
         height = int(detection[2][3])
+   
     return matrix
    ```
 ## License
