@@ -12,10 +12,6 @@ Additionally, it includes a Darknet manager responsible for managing instances o
 - **Parallel Processing**: Darknet manager facilitates parallel processing of images.
 - **Stability**: Production-ready solution, stable for deployment.
 
-## Contributors
-
-- [Stefan Jokic](https://github.com/stefanjokic99)
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
