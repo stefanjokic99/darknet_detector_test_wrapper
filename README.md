@@ -19,7 +19,7 @@ To utilize this Darknet Detector Test Wrapper, follow the steps below:
 1. **Initialization**: 
    Before performing any detections, initialize the Darknet manager by calling:
    ```python
-   DarknetManager.prepare_instances()
+      DarknetManager.prepare_instances()
    ```
 2. **Perform detection**
   When you need to process an image, retrieve an available instance and perform the detection:
