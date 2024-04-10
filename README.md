@@ -47,9 +47,6 @@ To utilize this Darknet Detector Test Wrapper, follow the steps below:
    
     return matrix
    ```
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
